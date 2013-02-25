@@ -1,0 +1,133 @@
+/*
+Theme Name: Spirallab - Cinema Fictício
+Author: Filipe F. Kalicki
+Version: 1.0
+Text Domain: Spirallab
+*/
+
+
+/* Class for Images */
+img {border: none;}
+.alignleft {float:left; margin-right: 10px}
+.alignright {float:right;}
+figure.figure { margin: 0 auto; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block; }
+figure.figure figcaption { padding: 8px 10px; font-size: 13px; font-size: 1.3em; line-height: 18px; color: #555; }
+figure.alignright.figure { float: right; margin: 0 0 18px 18px; }
+figure.alignleft.figure { float: left; margin: 0 18px 18px 0; }
+figure {margin-bottom: 10px;}
+figure img {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 2px 10px #ddd;
+    -moz-box-shadow: 0px 2px 10px #ddd;
+    -webkit-box-shadow: 0px 2px 10px #ddd;
+    border-image: initial;
+}
+
+
+/* Typography */
+h1,h2,h3,h4,h5,h6 {font-weight: 300;}
+.site-title .subheader {margin-bottom:0;}
+
+
+/* Generics */
+body {
+   background: #FFF;
+}
+
+select {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    padding: 6px;
+    height: 32px;
+    width: 100%;
+    outline: none;
+}
+
+.wpcf7 textarea{position: relative;}
+
+.wpcf7 span.wpcf7-not-valid-tip{
+    background-color: #E9E9E9;
+    color: #505050;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -37px;
+    top: 0px;
+    left: 5px;
+    width: 320px;
+}
+
+.wpcf7 div.wpcf7-response-output {
+    background-color: #C60F13;
+    color: white;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wpcf7 div.wpcf7-mail-sent-ok{
+    background-color: #5DA423;
+    color: white;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: whitesmoke;
+    border-bottom: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+}
+
+.nav-bar > li > a {color: #333;}
+.nav-bar > li:hover > a {color: #fff;}
+
+
+/* Front */
+.programacao, .exibidos {
+    float: left;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.cartaz {
+    text-align: center;
+}
+
+/* Page */
+
+/* Single */
+.cineinfo span {
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.cineinfo figure img {text-align: left; margin: 0;}
+
+/* Sidebar */
+
+/* Footer */
+footer {
+    border-top: 1px solid #DFDFDF;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+footer .phone {text-align: left;}
+
+footer #copyright {clear: both; color: #6a6a6a; font-family:Arial, Helvetica, sans-serif; font-size: 10px}
+footer #copyright span {float: left; line-height: 32px;}
+footer #copyright a {background: url(admin/Spirallab-footer.png) no-repeat transparent; float: right; height: 18px; width: 162px;}       

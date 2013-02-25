@@ -1,0 +1,93 @@
+h1 a {
+    background-image: url(spirallab.png) !important;
+}
+
+#login {
+    width: 360px;
+}
+
+#loginform {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none !important;
+    border: none;
+}
+
+input {
+    color: #2F2F83;
+}
+
+#lostpasswordform {
+    background: none;
+}
+
+form label,.login label,.placeholder {
+    color: #999 !important;
+    text-shadow: white 0 1px 0;
+    font-size: 12px;
+}
+
+.login form .input {
+    border: 2px solid #C1C1C1;
+    padding-left: 35px;
+
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+input#user_login {
+    background: url(user.png) no-repeat 10px center;
+}
+
+input#user_pass {
+    background: url(pass.png) no-repeat 10px center;
+}
+
+.login form .input:focus {
+    background: #FAFAFA;
+    border: 2px solid #278AB7;
+
+    -webkit-transition: -webkit-box-shadow 0.4s;
+    -moz-transition: -moz-box-shadow 0.4s;
+    -o-transition: box-shadow 0.4s;
+    -ms-transition: box-shadow 0.4s;
+    transition: box-shadow 0.4s;
+
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login .button-primary {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #298cba;
+
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.login #backtoblog {
+    float: left;
+}
+
+.login #nav {
+    float: right;
+}
+
+.login #nav,.login #backtoblog {
+    margin: 7px 0px !important;
+}
+
+.login #nav > a,.login #backtoblog > a {
+    text-decoration: none;
+}

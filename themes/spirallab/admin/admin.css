@@ -1,0 +1,68 @@
+#wphead {
+	background: -webkit-linear-gradient(center bottom , #F48220, #DE761C);
+	background: -moz-linear-gradient(center bottom , #F48220, #DE761C);
+	background: -o-linear-gradient(center bottom , #F48220, #DE761C);
+	background: -ms-linear-gradient(center bottom , #F48220, #DE761C);
+	background: linear-gradient(center bottom , #F48220, #DE761C);
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#F48220), to(#DE761C));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F48220', endColorstr='#DE761C');
+	background-color: #F48220;
+	color: #fff;
+}
+
+#wphead #user_info {
+	color: #fff;
+}
+
+#wphead h1 a {
+	color: #fafafa;
+}
+
+#user_info a:link,#user_info a:visited,#footer a:link,#footer a:visited {
+	color: #2F2F83;
+	text-decoration: none;
+}
+
+#footer {
+	color: #F48220;
+}
+
+#footer p {
+	margin: 0 15px;
+}
+
+#footer-upgrade {
+	float: right !important;
+}
+
+#header-logo {
+	background: url('simbolo-grau.png') no-repeat scroll center center transparent;
+	height: 32px;
+	margin: 0;
+	width: 32px;
+}
+
+.wp-badge {
+	background: url('spirallab-widget.png') no-repeat !important;
+	color: #F60 !important;
+	padding-top: 75px !important;
+	width: 310px !important;
+	font-weight: 400 !important;
+	margin-bottom: 0 !important;
+}
+
+.about-description {
+	margin-left: 0px !important;
+}
+
+#dashboard_right_now .versions p {
+	display: none;
+}
+
+#wp-version-message {
+	display: none;
+}
+
+#dashboard_right_now a.button {
+	display: none;
+}
